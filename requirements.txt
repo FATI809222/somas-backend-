@@ -1,0 +1,15 @@
+Django==4.2.3
+django-cors-headers==4.2.0
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+psycopg2-binary==2.9.7
+dj-database-url==2.1.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+whitenoise==6.5.0
+pdf2image==1.16.3
+pytesseract==0.3.10
+Pillow==10.0.0
+pdfplumber==0.10.2
+google-generativeai==0.3.2
+ollama==0.1.0
