@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-18T18:45:06.468299",
+  "total": 2,
+  "conformes": 1,
+  "resultats": [
+    {
+      "fichier": "FAC3.pdf",
+      "type_objet_detecte": "controle",
+      "type_objet_attendu": "controle",
+      "type_correct": true,
+      "documents_requis": [
+        "certificat_ou_rapport"
+      ],
+      "documents_fournis": [
+        "certificat_ou_rapport"
+      ],
+      "documents_manquants": [],
+      "tous_presents": true,
+      "conditions": {
+        "nouveau_fournisseur": false,
+        "a_acompte": false,
+        "a_retenue_garantie": false
+      },
+      "conforme": true
+    },
+    {
+      "fichier": "FAC4.pdf",
+      "type_objet_detecte": "controle",
+      "type_objet_attendu": "etude",
+      "type_correct": false,
+      "documents_requis": [
+        "certificat_ou_rapport"
+      ],
+      "documents_fournis": [
+        "pv_reception_ou_attachement_signe_cachete",
+        "validation_bureau_etudes_controle"
+      ],
+      "documents_manquants": [
+        "certificat_ou_rapport"
+      ],
+      "tous_presents": false,
+      "conditions": {
+        "nouveau_fournisseur": false,
+        "a_acompte": false,
+        "a_retenue_garantie": false
+      },
+      "conforme": false
+    }
+  ]
+}
