@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     # ⭐ Packages tiers
     'rest_framework',
     'rest_framework_simplejwt',
+    'rest_framework_simplejwt.token_blacklist',  # ⭐ AJOUTER CETTE LIGNE
     'corsheaders',
     
     # ⭐ Applications du projet
